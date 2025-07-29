@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Barshan's Protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <!--NAVIGATION-->
+    <nav class="navbar">
+        <a href="home" class="logo">B A R S H A N</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+         </ul>
+    </nav>
+    <!--HERO_SECTION-->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>  AI AND ML DEVLOPER</h1>
+                <p>I’m a passionate AI/ML enthusiast currently in my 3rd year at The Neotia University, pursuing B.Tech in Computer Science with a specialization in Artificial Intelligence & Machine Learning. I love building intelligent systems and deploying them to the cloud. My interests lie in Gen-AI, Computer Vision, LLMs, and practical applications of Deep Learning in real-world problems.</p>
+                <a href="#contact" class="cta-button">Let's Connect</a>
+        </div>
+        <div class="hero-image">
+            <img src="profile_image.jpg" alt="Profile" class="profile-image">
+        </div>
+    </section>
+<!--SKILL SECTION-->
+    <section id="skills" class="skills">
+        <h2>Technical Experience</h2>
+        <div class="skill-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>React , HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>ML & DL DEVLOPMENT</h3>
+                <p>NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <h3>LLM'S AND GEN-AI Development</h3>
+                <p>Transformers, LangChain, LlamaIndex, PEFT</p>
+            </div>
+        </div>
+    </section>
+
+<!--PROJECTS SECTION-->
+<section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Sign Language Detector</h3>
+            <p>Real-time ASL recognition using CNN and OpenCV, deployed via Streamlit.</p>
+            <a href="https://github.com/NEW-HABIT/SIGN_LANGUAGE" target="_blank">GitHub</a> |
+            <a href="https://sign-language-detector.streamlit.app" target="_blank">Live Demo</a>
+        </div>
+        <div class="project-card">
+            <h3>Potato & Tomato Quality Grader</h3>
+            <p>Multi-headed CNN to classify crop and detect quality. Deployed on the cloud.</p>
+            <a href="https://github.com/NEW-HABIT/TOMATO_POTATO_QUALITY" target="_blank">GitHub</a> |
+            <a href="https://potato-tomato-quality.streamlit.app" target="_blank">Live Demo</a>
+        </div>
+        <!-- Add more project-card divs as needed -->
+    </div>
+</section>
+
+<!--CONTACT SECTION-->
+<section id="contact" class="contact">
+    <h2>Let's Connect</h2>
+    <p>If you have a question, collaboration idea, or just want to say hi — drop a message below!</p>
+
+    <form class="contact-form" action="mailto:barshanadhikari181@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+</section>
+
+
+<!--FOOTER-->
+    <footer>
+        <p>&copy;2025 Barshan. All rights reserved.</p>
+<div class="social-links">
+    <a href="https://github.com/NEW-HABIT" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="mailto:your-email@example.com" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/barshan-adhikari" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+</div>
+
+    </footer>
+<!--javascript-->
+<script src="script.js"></script>
+
+</body>
+</html>
