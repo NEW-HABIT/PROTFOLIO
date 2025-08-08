@@ -111,6 +111,7 @@ overflow-x: hidden;
     background: linear-gradient(55deg,var(--accent)30%,#ffffff 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 .hero p{
